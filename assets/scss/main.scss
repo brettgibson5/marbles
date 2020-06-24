@@ -1,8 +1,14 @@
 @import 'bulma';
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .has-navbar-fixed-top {
-  padding-top: 85px !important;
+  padding-top: 95px !important;
 }
 .Page {
   min-height: 100vh;
+}
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

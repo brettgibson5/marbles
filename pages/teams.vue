@@ -30,6 +30,18 @@ export default {
           },
           description:
             'Burr, it’s cold on top of the mountain is what Andy hopes to scream as an avalanche cascades on his competitors.'
+        },
+        {
+          player: {
+            name: 'Alex Ogle',
+            imgUrl: '/img/alex.JPG'
+          },
+          marble: {
+            name: 'Hornets',
+            imgUrl: '/img/hornets.png'
+          },
+          description:
+            'Burr, it’s cold on top of the mountain is what Andy hopes to scream as an avalanche cascades on his competitors.'
         }
       ]
     }

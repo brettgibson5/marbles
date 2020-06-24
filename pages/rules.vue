@@ -28,9 +28,7 @@
                 </a>
               </div>
               <div class="card-content">
-                <div class="content">
-                  {{ collapse.text }}
-                </div>
+                <div class="content" v-html="collapse.text"></div>
               </div>
             </b-collapse>
           </section>
@@ -53,8 +51,12 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: 'Title 1',
-          text: 'Text 1'
+          title: 'Pay Structure',
+          text: `<strong>Weekly winner:</strong> $5<br /><br /><strong>Season Winners:</strong><br />1st Place	45% ($301.50)<br />
+2nd Place	25% ($167.50)<br />
+3rd Place	15% ($100.50)<br />
+4th Place	10% ($67.00)<br />
+5th Place	5% ($33.50)`
         },
         {
           title: 'Title 2',

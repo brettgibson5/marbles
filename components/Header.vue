@@ -45,12 +45,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navbar {
+  border-bottom: 1px solid #ccc;
+}
 .navbar-item {
   &:hover {
     color: #e2190a;
   }
   img {
-    max-height: 70px;
+    max-height: 100px;
+    margin-bottom: -20px;
   }
 }
 </style>
